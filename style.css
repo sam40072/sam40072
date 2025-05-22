@@ -11,9 +11,42 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 20vh; /* full vertical height */
+    padding: 20px;
+    gap: 10px;
+    /* Remove this line below or increase it */
+    /* height: 20vh; */ /* This is too small */
 }
 button {
      align-items: center;
      justify-content: center;
+}
+input[type="text"],
+textarea {
+    width: 90%;
+    max-width: 500px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; /* Adjust height as needed */
+    background-image: url("sparkle.webp");
+    background-size: cover;      /* Fill the entire footer */
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 999;
+}
+.footer-content {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-weight: bold;
 }

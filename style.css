@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:crimson
+}
+body {
+    background-image: url("https://wallpapercat.com/w/full/3/f/4/299876-1920x1200-desktop-hd-hello-kitty-background-photo.jpg");
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh; /* full vertical height */
+}
+button {
+     align-items: center;
+     justify-content: center;
+}

@@ -54,3 +54,15 @@ textarea {
 .coolText {
     text-align: center;
 }
+.coolText img {
+  width: 100%;
+  max-width: 600px; /* default size for larger screens */
+  height: auto;
+}
+
+/* 📱 Only apply on screens smaller than 768px */
+@media (max-width: 768px) {
+  .coolText img {
+    max-width: 150px; /* shrink image on mobile */
+  }
+}

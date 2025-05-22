@@ -50,3 +50,7 @@ textarea {
     padding-top: 25px;
     font-weight: bold;
 }
+
+.coolText {
+    text-align: center;
+}
